@@ -1,0 +1,4 @@
+Date|VPC|InstanceID|LaunchTime|InstanceType|VolumeIds|VolumeType|Iops|Size|AZ
+082719|vpc-df0e2fb7|i-0f3064aac7777a8a9|            2019-08-27T04:57:29.000Z|            t2.micro|vol-0872c2dd50d006bb5|        gp2|        100|        8|        ap-south-1a|
+082719|vpc-df0e2fb7|i-0f3064aac7777a8a9|            2019-08-27T04:57:29.000Z|            t2.micro|vol-0898c104c7453514d|        gp2|        180|        60|        ap-south-1a|
+082719|vpc-df0e2fb7|i-06f74f446fcaa31e6|            2019-08-27T05:01:42.000Z|            t2.micro|vol-0468e39bc416379f4|        gp2|        100|        8|        ap-south-1a|

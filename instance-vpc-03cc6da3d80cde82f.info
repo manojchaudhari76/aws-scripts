@@ -1,0 +1,110 @@
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0d2692b6acea72ee6",
+                    "InstanceId": "i-042b3ac9be2e52d44",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "vpc1_mqg_keypair",
+                    "LaunchTime": "2019-08-26T09:46:47.000Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "ap-south-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-10-0-0-80.ap-south-1.compute.internal",
+                    "PrivateIpAddress": "10.0.0.80",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 16,
+                        "Name": "running"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-0d8b1f27e19976214",
+                    "VpcId": "vpc-03cc6da3d80cde82f",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/xvda",
+                            "Ebs": {
+                                "AttachTime": "2019-08-26T09:46:47.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-0c2105618d2959621"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2019-08-26T09:46:47.000Z",
+                                "AttachmentId": "eni-attach-0e035a9cd98e32e94",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached"
+                            },
+                            "Description": "Primary network interface",
+                            "Groups": [
+                                {
+                                    "GroupName": "launch-wizard-3",
+                                    "GroupId": "sg-0d5c7dd127c102d6c"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:2d:b3:38:2e:b2",
+                            "NetworkInterfaceId": "eni-0a104ff8fa08cf05e",
+                            "OwnerId": "131048760454",
+                            "PrivateDnsName": "ip-10-0-0-80.ap-south-1.compute.internal",
+                            "PrivateIpAddress": "10.0.0.80",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-10-0-0-80.ap-south-1.compute.internal",
+                                    "PrivateIpAddress": "10.0.0.80"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0d8b1f27e19976214",
+                            "VpcId": "vpc-03cc6da3d80cde82f",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/xvda",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "launch-wizard-3",
+                            "GroupId": "sg-0d5c7dd127c102d6c"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    }
+                }
+            ],
+            "OwnerId": "131048760454",
+            "ReservationId": "r-02b9543b2eab16e91"
+        }
+    ]
+}

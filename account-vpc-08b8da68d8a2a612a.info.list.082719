@@ -1,0 +1,2 @@
+Date|VPC|InstanceID|LaunchTime|InstanceType|VolumeIds|VolumeType|Iops|Size|AZ
+082719|vpc-08b8da68d8a2a612a|i-0617c3a03270ece49|            2019-08-27T10:49:20.000Z|            t2.micro|vol-0249e8dede2168325|        gp2|        100|        8|        ap-south-1a|
